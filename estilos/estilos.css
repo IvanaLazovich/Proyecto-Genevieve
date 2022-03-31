@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #c2b6b3;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.headerTitulo {
+    color: #c2b6b3;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    text-align: center;
+    background-color: #8f746e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    width:100%
+}
+
+.navMenu ul li a {
+    color:#52423f;
+    font-size: 18px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    text-align: left;
+    list-style: none;
+}
+
+.navMenu li {
+    display: flex;
+    padding: 0px 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mainTitulo {
+    color: #1a1515;
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+}
+
+.mainSection {
+    color: #1a1515;
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.mainSection h6 {
+    font-size: 25px;
+    line-height: 2.3;
+}
+
+.article {
+    text-align: center;
+}
+
+.divSection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 20px 5px;
+}
+
+.nombreArticulo {
+    color: #1a1515;
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 700;
+    margin: 20px;
+    }   
+
+.formArticulo {
+    color: #1a1515;
+    font-size: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.imgArticulo {
+    margin: 20px;
+}
+
+.formContacto {
+    color:#1a1515;
+    font-size: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.formContacto label{
+    display: block;
+    margin: 15px 0px 5px 0px;
+}
+
+textarea {
+    display: block;
+    margin: 15px 0px 5px 0px;
+    background-color: #ecd6d5;
+}
+
+.inputTexto {
+    background-color: #ecd6d5;
+    display: block;
+    margin-top: 10px;
+}
+
+.newsletter {
+    display: inline-block;
+    margin: 15px 0px 5px 0px;
+}
+
+.footer a {
+    color:#1a1515;
+    font-size: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    display: inline-block;
+    background-color: #665d5c;
+}
+
+.footer nav {
+    background-color: #665d5c;
+    width: 100%;
+    display: flex;
+}
+
+.main {
+    display: grid;
+
+}
+
+.sectionProductos {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 510px){
+    .navMenu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main p{
+    margin: 0 auto;
+    }
+    .sectionProductos {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .mainSection {
+        margin: 5%;
+    }
+}
