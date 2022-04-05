@@ -21,10 +21,6 @@ html {
     padding-bottom: 20px;
 }
 
-header {
-    width:100%
-}
-
 .navMenu ul li a {
     color:#52423f;
     font-size: 18px;
@@ -32,8 +28,12 @@ header {
     font-weight: 600;
     text-align: left;
     list-style: none;
+    text-decoration: none;
 }
-
+.navMenu {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
 .navMenu li {
     display: flex;
     padding: 0px 10px;
@@ -50,7 +50,7 @@ header nav ul {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 700;
     text-align: center;
-    padding: 20px 0px 30px 0px;
+    padding: 2% 15%;
 }
 
 .mainSection {
@@ -59,27 +59,20 @@ header nav ul {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 700;
     text-align: center;
-    margin: 5%;
+    padding: 2% 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
 }
 
-.mainSection h6 {
-    font-size: 25px;
-    line-height: 2.3;
-}
-
-.article {
-    text-align: center;
-}
 
 .divSection {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: 20px 5px;
+    margin: 20px 0px;
+    padding: 0px;
 }
 
 .nombreArticulo {
@@ -88,7 +81,7 @@ header nav ul {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 700;
     margin: 20px;
-    }   
+    }  
 
 .formArticulo {
     color: #1a1515;
@@ -96,11 +89,7 @@ header nav ul {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     margin: 10px;
-}
-
-.imgArticulo {
-    margin: 20px;
-}
+    }
 
 .formContacto {
     color:#1a1515;
@@ -108,7 +97,7 @@ header nav ul {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 600;
     margin: 10px;
-}
+    }
 
 .formContacto label{
     display: block;
@@ -132,6 +121,11 @@ textarea {
     margin: 15px 0px 5px 0px;
 }
 
+.mainSection h6 {
+    font-size: 25px;
+    line-height: 2.3;
+} 
+
 .footer a {
     color:#1a1515;
     font-size: 15px;
@@ -141,17 +135,20 @@ textarea {
     padding: 10px 0px;
     display: inline-block;
     background-color: #665d5c;
+    text-decoration: none;
 }
 
 .footer nav {
     background-color: #665d5c;
     width: 100%;
     display: flex;
+    padding:0%;
 }
+
+
 
 .main {
     display: grid;
-
 }
 
 .sectionProductos {
@@ -174,12 +171,6 @@ textarea {
     .sectionProductos {
         grid-template-columns: auto;
         grid-template-rows: auto;
-    }
-}
-
-@media screen and (max-width: 760px) {
-    .mainSection {
-        margin: 5%;
     }
 }
 
@@ -211,4 +202,9 @@ textarea {
     .mainTitulo:hover {
         font-size: 40px;
     }
+}
+
+.container-fluid {
+    margin: 0%;
+    padding: 0%;
 }
