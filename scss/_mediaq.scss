@@ -1,0 +1,49 @@
+@media screen and (max-width: 510px){
+    .navMenu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main p{
+    margin: 0 auto;
+    }
+    .sectionProductos {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .mainSection {
+        margin: 5%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .imgArticulo {
+        height: 250px;
+        width: 150px;
+        transition: height 4s, width 4s;
+    }
+    
+    .imgArticulo:hover {
+        height: 300px;
+        width: 200px;
+    }
+
+    .nombreArticulo {
+        transition: color 1s;
+    }
+
+    .nombreArticulo:hover {
+        color: #8b8888;
+    }
+
+    .mainTitulo {
+        font-size: 30px;
+        transition: font-size 3s;
+    }
+
+    .mainTitulo:hover {
+        font-size: 40px;
+    }
+} 

@@ -1,0 +1,32 @@
+header { 
+    width: 100%;
+    div h1 {
+        color: #c2b6b3;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 800;
+        text-align: center;
+        background-color: #8f746e;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    nav ul {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+.navMenu {
+    ul li a {
+        color:#52423f;
+        font-size: 18px;
+        font-family: 'Nanum Myeongjo', serif;
+        font-weight: 600;
+        text-align: left;
+        list-style: none;
+    }
+    li {
+        display: flex;
+        padding: 0px 10px;
+    }
+}

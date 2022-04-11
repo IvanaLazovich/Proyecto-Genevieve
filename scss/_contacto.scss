@@ -1,0 +1,42 @@
+main {
+    .mainTitulo {
+        color: #52423f;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 800;
+        text-align: center;
+        padding: 20px 0px 30px 0px;
+    }
+    .mainSection {
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        h6 {
+            font-size: 25px;
+            line-height: 2.3;
+        }
+    }
+    }
+
+.formContacto {
+    color:#1a1515;
+    font-size: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    margin: 10px;
+    display: block;
+    margin: 15px 0px 5px 0px;
+    textarea {
+        background-color: #ecd6d5;
+    }
+    .inputTexto {
+        background-color: #ecd6d5;
+        margin-top: 10px;
+    }
+    .newsletter {
+        display: inline-block;
+        margin: 15px 0px 5px 0px;
+    }
+}
