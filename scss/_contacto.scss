@@ -26,13 +26,18 @@ main {
     font-family: 'Nanum Myeongjo', serif;
     font-weight: 600;
     margin: 10px;
-    display: block;
-    margin: 15px 0px 5px 0px;
+    label {
+        display: block;
+        margin: 15px 0px 5px 0px;
+    }
     textarea {
+        display: block;
+        margin: 15px 0px 5px 0px;
         background-color: #ecd6d5;
     }
     .inputTexto {
         background-color: #ecd6d5;
+        display: block;
         margin-top: 10px;
     }
     .newsletter {

@@ -1,3 +1,10 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: #c2b6b3;
+  text-decoration: none;
+  list-style-type: none; }
+
 header {
   width: 100%; }
   header div h1 {
@@ -48,13 +55,17 @@ main .mainSection {
   font-size: 15px;
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 600;
-  margin: 10px;
-  display: block;
-  margin: 15px 0px 5px 0px; }
+  margin: 10px; }
+  .formContacto label {
+    display: block;
+    margin: 15px 0px 5px 0px; }
   .formContacto textarea {
+    display: block;
+    margin: 15px 0px 5px 0px;
     background-color: #ecd6d5; }
   .formContacto .inputTexto {
     background-color: #ecd6d5;
+    display: block;
     margin-top: 10px; }
   .formContacto .newsletter {
     display: inline-block;
