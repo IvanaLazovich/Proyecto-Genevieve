@@ -60,9 +60,9 @@ main .mainSection {
     display: block;
     margin: 15px 0px 5px 0px; }
   .formContacto textarea {
+    background-color: #ecd6d5;
     display: block;
-    margin: 15px 0px 5px 0px;
-    background-color: #ecd6d5; }
+    margin: 15px 0px 5px 0px; }
   .formContacto .inputTexto {
     background-color: #ecd6d5;
     display: block;
