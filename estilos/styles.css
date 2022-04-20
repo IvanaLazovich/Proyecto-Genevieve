@@ -42,32 +42,22 @@ main .mainTitulo {
 
 main .mainSection {
   margin: 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap; }
+  align-items: center; }
   main .mainSection h6 {
     font-size: 25px;
     line-height: 2.3; }
 
-.formContacto {
-  color: #1a1515;
+.formContacto, .inputTexto {
   font-size: 15px;
   font-family: 'Nanum Myeongjo', serif;
   font-weight: 600;
   margin: 10px; }
-  .formContacto label {
+  .formContacto label, .inputTexto label {
     display: block;
     margin: 15px 0px 5px 0px; }
-  .formContacto textarea {
-    background-color: #ecd6d5;
-    display: block;
+  .formContacto textarea, .inputTexto textarea {
     margin: 15px 0px 5px 0px; }
-  .formContacto .inputTexto {
-    background-color: #ecd6d5;
-    display: block;
-    margin-top: 10px; }
-  .formContacto .newsletter {
+  .formContacto .newsletter, .inputTexto .newsletter {
     display: inline-block;
     margin: 15px 0px 5px 0px; }
 
@@ -117,3 +107,29 @@ main .mainSection {
     transition: font-size 3s; }
   .mainTitulo:hover {
     font-size: 40px; } }
+
+/*Map get*/
+.formContacto, .inputTexto {
+  color: #1a1515; }
+  .formContacto textarea, .inputTexto textarea {
+    background-color: #ecd6d5;
+    display: block; }
+  .formContacto .inputTexto, .inputTexto .inputTexto {
+    background-color: #ecd6d5;
+    display: block; }
+
+/*Extend*/
+.formContacto, .inputTexto {
+  font-size: 15px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 600;
+  margin: 10px; }
+
+.inputTexto {
+  margin-top: 10px; }
+
+/*Mixin*/
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }

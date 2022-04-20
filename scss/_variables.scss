@@ -1,0 +1,43 @@
+/*Map get*/
+$form: (
+    color: #1a1515,
+    fondo: #ecd6d5,
+    bloque: block,
+);
+
+.formContacto {
+    color: map-get($form, color);
+    textarea {
+        background-color: map-get($form, fondo);
+        display: map-get($form, bloque);
+    }
+    .inputTexto{
+        background-color: map-get($form, fondo);
+        display: map-get($form, bloque);
+    }
+}
+
+/*Extend*/
+
+.formContacto{
+    font-size: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.inputTexto {
+    @extend .formContacto;
+    margin-top: 10px;
+}
+
+/*Mixin*/
+@mixin flexbox($flex, $direction, $wrap) {
+    display: $flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+.mainSection {
+    @include flexbox(flex, column, nowrap)
+}
